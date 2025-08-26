@@ -1,0 +1,15 @@
+fastapi==0.112.2
+uvicorn[standard]==0.30.6
+pydantic==2.8.2
+python-dotenv==1.0.1
+openai==1.53.0
+# If FAISS install fails on your platform, comment it and switch to in-memory search
+faiss-cpu==1.8.0.post1
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.5.2
+tiktoken==0.7.0
+prometheus-client==0.20.0
+opentelemetry-api==1.26.0
+opentelemetry-sdk==1.26.0
+opentelemetry-exporter-otlp==1.26.0

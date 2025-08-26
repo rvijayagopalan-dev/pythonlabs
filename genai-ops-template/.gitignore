@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Model/Index artifacts
+data/index/
+
+# OS cruft
+.DS_Store
+Thumbs.db
