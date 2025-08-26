@@ -1,0 +1,10 @@
+
+name: boston_regression
+
+conda_env: requirements.txt
+
+entry_points:
+  main:
+    parameters:
+      alpha: {type: float, default: 0.5}
+    command: "python train.py --alpha {alpha}"
